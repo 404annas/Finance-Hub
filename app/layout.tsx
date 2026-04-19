@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Poppins } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import '@/app/globals.css'
 
 const poppins = Poppins({
   subsets: ['latin'],
