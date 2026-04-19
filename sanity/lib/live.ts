@@ -13,3 +13,4 @@ export const { sanityFetch, SanityLive } = defineLive({
   serverToken: process.env.NEXT_SANITY_API_READ_TOKEN,
   browserToken: process.env.NEXT_SANITY_API_READ_TOKEN,
 });
+
